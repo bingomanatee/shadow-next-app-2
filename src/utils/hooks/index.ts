@@ -1,1 +1,1 @@
-export { default as useGptApi } from '@utils/hooks/useGptApi';
+export { default as useGptApi } from '@/utils/hooks/useGptApi';

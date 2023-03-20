@@ -1,5 +1,5 @@
 import { Leaf } from '@wonderlandlabs/forest/lib/Leaf'
-import { Message, UserObj } from '@lib/types'
+import { Message, UserObj } from '@/lib/types'
 import { v4 } from 'uuid'
 
 export default () => {

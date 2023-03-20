@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next'
-import { getSupabase } from '@lib/getSupabase'
+import { getSupabase } from '@/lib/getSupabase'
 
 export default async function handler(
   req: NextApiRequest,

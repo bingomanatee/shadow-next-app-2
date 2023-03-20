@@ -1,14 +1,14 @@
 import { Button } from 'grommet'
 import Image from 'next/image'
-import IconPair from '@components/IconPair'
+import IconPair from '@/components/IconPair'
 import React, { ChangeEvent, useContext, useEffect, useMemo, useState } from 'react'
-import { GlobalStateContext } from '@components/GlobalState'
+import { GlobalStateContext } from '@/components/GlobalState'
 import { Forest } from '@wonderlandlabs/forest'
 import { Leaf } from '@wonderlandlabs/forest/lib/Leaf'
 import axios from 'axios'
-import { AddAccountForm } from '@components/pages/accounts/AddAccountForm'
-import { Account, NewAccount } from '@lib/types'
-import { ShowBulk } from '@components/pages/accounts/ShowBulk'
+import { AddAccountForm } from '@/components/pages/accounts/AddAccountForm'
+import { Account, NewAccount } from '@/lib/types'
+import { ShowBulk } from '@/components/pages/accounts/ShowBulk'
 
 
 export type AccountsStateValue = {

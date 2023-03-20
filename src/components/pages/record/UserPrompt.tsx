@@ -1,6 +1,6 @@
 import { Box, Button, Card, CardBody, CardHeader, Heading, Layer, Text, TextInput } from 'grommet'
-import ModalFrame from '@components/ModalFrame'
-import FormItem from '@components/FormItem'
+import ModalFrame from '@/components/ModalFrame'
+import FormItem from '@/components/FormItem'
 import Image from 'next/image'
 
 export function UserPrompt({

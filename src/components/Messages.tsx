@@ -1,6 +1,6 @@
-import { GlobalStateContext } from '@components/GlobalState'
+import { GlobalStateContext } from '@/components/GlobalState'
 import { useContext, useMemo } from 'react'
-import { Message } from '@lib/types'
+import { Message } from '@/lib/types'
 import { Box, Button, Card, CardBody, CardFooter, CardHeader, Heading, Layer, ResponsiveContext, Text } from 'grommet'
 import Image from 'next/image'
 import styled, { keyframes } from 'styled-components';

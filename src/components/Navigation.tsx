@@ -1,10 +1,10 @@
 import { Nav, Box } from 'grommet'
 import Link from 'next/link'
 import { Microphone, Home } from 'grommet-icons'
-import UserLogin from '@components/UserLogin'
+import UserLogin from '@/components/UserLogin'
 import IconPair from './IconPair'
 import { useContext } from 'react'
-import { GlobalStateContext } from '@components/GlobalState'
+import { GlobalStateContext } from '@/components/GlobalState'
 import Image from 'next/image'
 
 export default function Navigation() {

@@ -1,5 +1,5 @@
 import { ChangeEvent, ReactNode, useCallback, useContext, useEffect, useMemo, useState } from 'react'
-import { GlobalStateContext } from '@components/GlobalState'
+import { GlobalStateContext } from '@/components/GlobalState'
 import axios from 'axios'
 import {
   Box,
@@ -17,10 +17,10 @@ import Link from 'next/link'
 import dayjs, { Dayjs } from 'dayjs'
 import { Forest } from '@wonderlandlabs/forest'
 import { Leaf } from '@wonderlandlabs/forest/lib/Leaf'
-import AddAccount from '@components/AddAccount'
+import AddAccount from '@/components/AddAccount'
 import { Checkbox, CheckboxSelected, Search } from 'grommet-icons'
-import FormItem from '@components/FormItem'
-import { short } from '@lib/utils'
+import FormItem from '@/components/FormItem'
+import { short } from '@/lib/utils'
 
 
 function accountConfig() {

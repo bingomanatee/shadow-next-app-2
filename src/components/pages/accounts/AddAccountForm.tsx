@@ -12,17 +12,17 @@ import {
   CheckBox,
   Tabs, Tab, TextArea
 } from 'grommet'
-import ModalFrame from '@components/ModalFrame'
-import FormItem from '@components/FormItem'
+import ModalFrame from '@/components/ModalFrame'
+import FormItem from '@/components/FormItem'
 import Image from 'next/image'
 import { ChangeEvent, ChangeEventHandler, useCallback, useContext, useEffect, useMemo, useState } from 'react'
-import ErrorMessage from '@components/ErrorMessage'
-import { Account } from '@lib/types'
-import { accountToLabel } from '@pages/accounts'
+import ErrorMessage from '@/components/ErrorMessage'
+import { Account } from '@/lib/types'
+import { accountToLabel } from '@/pages/accounts'
 import { Leaf } from '@wonderlandlabs/forest/lib/Leaf'
-import { GlobalStateContext } from '@components/GlobalState'
+import { GlobalStateContext } from '@/components/GlobalState'
 import { Forest } from '@wonderlandlabs/forest'
-import { AccountsStateValue } from '@components/AddAccount'
+import { AccountsStateValue } from '@/components/AddAccount'
 
 
 const emailError = (email: string, accounts: Account[]) => {

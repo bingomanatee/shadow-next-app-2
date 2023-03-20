@@ -1,7 +1,7 @@
 import { Forest } from '@wonderlandlabs/forest';
 import { createContext, useEffect, useMemo, useState } from 'react'
 import { Leaf } from '@wonderlandlabs/forest/lib/Leaf'
-import { GenericPageProps, GlobalStateValue } from '@lib/types'
+import { GenericPageProps, GlobalStateValue } from '@/lib/types'
 import globalStateConfig from '../lib/globalStateConfig'
 
 

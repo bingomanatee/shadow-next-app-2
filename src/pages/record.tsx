@@ -4,12 +4,12 @@ import Link from 'next/link'
 import { Forest } from '@wonderlandlabs/forest'
 import { Microphone } from 'grommet-icons'
 import Image from 'next/image'
-import IconPair from '@components/IconPair'
-import { GlobalStateContext } from '@components/GlobalState'
-import { UserPrompt } from '@components/pages/record/UserPrompt'
-import { RecordStateValues } from '@lib/types'
-import recordStateConfig from '@lib/recordStateConfig'
-import useSpeechRecognition from '@lib/useSpeechRecognition'
+import IconPair from '@/components/IconPair'
+import { GlobalStateContext } from '@/components/GlobalState'
+import { UserPrompt } from '@/components/pages/record/UserPrompt'
+import { RecordStateValues } from '@/lib/types'
+import recordStateConfig from '@/lib/recordStateConfig'
+import useSpeechRecognition from '@/lib/useSpeechRecognition'
 
 export default function Record({}) {
   const [value, setValue] = useState<RecordStateValues>({

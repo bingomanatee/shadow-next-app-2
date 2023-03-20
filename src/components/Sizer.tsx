@@ -1,7 +1,7 @@
 import { withSize } from 'react-sizeme';
 import SizeContext from './SizeContext';
 import { GlobalStateContext } from './GlobalState';
-import { GenericPageProps } from '@lib/types'
+import { GenericPageProps } from '@/lib/types'
 import { useEffect } from 'react'
 
 type Props = { state?: any, size?: { width: number, height: number, dynHeight: number } } & GenericPageProps

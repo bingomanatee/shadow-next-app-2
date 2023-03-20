@@ -1,5 +1,5 @@
 import { Leaf } from '@wonderlandlabs/forest/lib/Leaf'
-import { RecordStateValues, UserObj } from '@lib/types'
+import { RecordStateValues, UserObj } from '@/lib/types'
 import axios from 'axios'
 import { FormEvent } from 'react'
 

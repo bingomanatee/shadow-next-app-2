@@ -1,12 +1,12 @@
 import { useContext, useEffect, useMemo, useState } from 'react'
-import { GlobalStateContext } from '@components/GlobalState'
+import { GlobalStateContext } from '@/components/GlobalState'
 import axios from 'axios'
 import { ColumnConfig, DataTable, PageHeader, ResponsiveContext, Text } from 'grommet'
 import Link from 'next/link'
 import dayjs, { Dayjs } from 'dayjs'
 import { Forest } from '@wonderlandlabs/forest'
 import { Leaf } from '@wonderlandlabs/forest/lib/Leaf'
-import { short } from '@lib/utils'
+import { short } from '@/lib/utils'
 
 function transcriptConfig() {
   return ({

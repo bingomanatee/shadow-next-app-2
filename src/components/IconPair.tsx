@@ -1,6 +1,6 @@
 import { Box, Text } from 'grommet'
 import { Home } from 'grommet-icons'
-import { GenericPageProps } from '@lib/types'
+import { GenericPageProps } from '@/lib/types'
 import { ReactElement } from 'react'
 
 type Props = { icon: ReactElement<any, any> | null, color?: string } & GenericPageProps

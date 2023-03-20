@@ -14,15 +14,15 @@ import {
   TextInput
 } from 'grommet'
 import { User } from 'grommet-icons'
-import IconPair from '@components/IconPair'
+import IconPair from '@/components/IconPair'
 import { Forest } from '@wonderlandlabs/forest'
 import { Leaf } from '@wonderlandlabs/forest/lib/Leaf'
-import FormItem from '@components/FormItem'
+import FormItem from '@/components/FormItem'
 import { FormView } from 'grommet-icons'
-import ErrorMessage from '@components/ErrorMessage'
-import ModalFrame from '@components/ModalFrame'
+import ErrorMessage from '@/components/ErrorMessage'
+import ModalFrame from '@/components/ModalFrame'
 import userLoginState, { UserLoginStateValue } from '../lib/userLoginState'
-import { GlobalStateContext } from '@components/GlobalState'
+import { GlobalStateContext } from '@/components/GlobalState'
 import Image from 'next/image'
 
 type LoginFormProps = {

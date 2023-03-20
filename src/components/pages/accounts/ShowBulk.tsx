@@ -12,13 +12,13 @@ import {
   CheckBox,
   Tabs, Tab, TextArea, DataTable, ResponsiveContext
 } from 'grommet'
-import ModalFrame from '@components/ModalFrame'
-import FormItem from '@components/FormItem'
+import ModalFrame from '@/components/ModalFrame'
+import FormItem from '@/components/FormItem'
 import Image from 'next/image'
 import { ChangeEvent, ChangeEventHandler, useCallback, useContext, useMemo } from 'react'
-import ErrorMessage from '@components/ErrorMessage'
-import { Account, NewAccount } from '@lib/types'
-import { accountToLabel } from '@pages/accounts'
+import ErrorMessage from '@/components/ErrorMessage'
+import { Account, NewAccount } from '@/lib/types'
+import { accountToLabel } from '@/pages/accounts'
 
 
 const emailError = (email: string, accounts: Account[]) => {

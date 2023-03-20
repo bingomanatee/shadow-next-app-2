@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import { v4 } from 'uuid';
 
-import getRedis from '@lib/getRedis'
+import getRedis from '@/lib/getRedis'
 
 export default async function handler(
   req: NextApiRequest,
